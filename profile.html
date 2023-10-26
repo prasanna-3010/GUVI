@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="profile.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Profile</h1>
+
+        <form id="profile-form">
+            <label for="dob">Date of Birth</label>
+            <input type="date" name="dob" value="{dob}" required>
+            
+            <label for="contact">Contact Number</label>
+            <input type="text" name="contact" value="{contact}" required>
+            
+            <label for="age">Age</label>
+            <input type="number" name="age" value="{age}" required>
+
+            <button type="button" id="save-button">Save Changes</button>
+        </form>
+    </div>
+
+</body>
+</html>
